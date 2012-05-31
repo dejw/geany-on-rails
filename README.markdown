@@ -10,7 +10,11 @@ Package contains:
 ## Installation
 
 By default Geany stores configuration files under `~/.config/geany`.
-All you have to do is just merging the `geany` directory.
+All you have to do is just merging the `geany` directory, which
+can be done as follows:
+
+    git clone git://github.com/dejw/geany-on-rails.git
+    cp -r geany-on-rails/geany ~/.config
 
 ## Contribution
 
@@ -19,8 +23,6 @@ to create an issue at http://github.com/dejw/geany-on-rails/issues
 
 If you would like to improve/commit something, tell me about it,
 and I will give You the commit rights or merge Your changes.
-
-
 
 
 ## Author
